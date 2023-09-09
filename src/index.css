@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-information {
+    @apply h-full w-16 bg-blue-400 transition-all ease-in-out duration-100 cursor-pointer
+}
+
+.button-information:hover {
+    @apply bg-blue-500 text-lg
+}
+
+.button-navigation {
+    @apply font-bold text-blue-950 text-xs transition-all ease-in-out uppercase
+}
+
+.button-navigation:hover, .button-navigation:active {
+    @apply text-blue-600
+}
+
+.button-menu {
+    @apply text-white font-medium text-lg
+}
+
+.button-menu:hover, .button-menu:active {
+    @apply underline
+}
